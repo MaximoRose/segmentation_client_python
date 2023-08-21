@@ -11,15 +11,17 @@ Nous allons fonc separer notre travail en trois etapes accessibles dans trois Ju
 
 
 ## 1. Analyse exploratoire des donnees.
-Fichier : 0_Analyse_Des_Donnees.ipynb
+Fichier : __0_Analyse_Des_Donnees.ipynb__
 
 Une analyse exploratoire des donnees assez classique qui permet de recomposer les liens entre les differentes tables du dataset.
+
+![relations entre les tables](https://maximorose.eu/datascience_gh_ress/relations_dataset_projet_segmentation.png)
 
 - On va estimer des indicateurs courants type "panier moyen" ou "temps moyen pour qu'un primo-acheteur devienne un client regulier".
 - On realise une premiere segmentation RFM qui permet de se faire une premiere idee, assez generique, des profils des acheteurs et acheteuses.
 
 ## 2. Segmentations des acheteurs et acheteuses.
-Fichier : 1_Segmentation_DataScience.ipynb
+Fichier : __1_Segmentation_DataScience.ipynb__
 
 - On va explorer plusieurs algorithmes de clusterisation non supervisee : K-means, DBSCAN, CAH.
 - On va travailler sur des dataset disposant de differentes features et mesurer les silhouettes scores de nos differentes segmentation pour determiner celle qui offre les meilleurs resultats.
@@ -27,7 +29,7 @@ Fichier : 1_Segmentation_DataScience.ipynb
 - On va reduire le nombre de dimensions avec t-SNE pour visualiser nos clusters.
 
 ## 3. Estimation d'une frequence de maintenance.
-Fichier : 2_Evolution_Temporelle_des_Clusters.ipynb
+Fichier : __2_Evolution_Temporelle_des_Clusters.ipynb__
 
 - On va etudier le drift de nos donnees sur la base du data set fourni
 - On va calculer l'evolution de l'ARI de nos modeles pour estimer une frequence ad hoc de maintenance
