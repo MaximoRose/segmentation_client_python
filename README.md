@@ -23,6 +23,8 @@ Une analyse exploratoire des donnees assez classique qui permet de recomposer le
 ## 2. Segmentations des acheteurs et acheteuses.
 Fichier : __1_Segmentation_DataScience.ipynb__
 
+N.B : Le fichier s'ouvre difficilement dans GitHub, aussi une version HTML est disponible [ici](https://maximorose.eu/datascience_gh_ress/1_Segmentation_DataScience.html)
+
 - On va explorer plusieurs algorithmes de clusterisation non supervisee : K-means, DBSCAN, CAH.
 - On va travailler sur des dataset disposant de differentes features et mesurer les silhouettes scores de nos differentes segmentation pour determiner celle qui offre les meilleurs resultats.
 - On va etudier les clusters identifies et faire des radar charts pour mieux comprendre le profil de nos acheteurs et acheteuses.
