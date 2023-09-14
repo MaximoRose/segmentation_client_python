@@ -33,5 +33,5 @@ N.B : Le fichier s'ouvre difficilement dans GitHub, aussi une version HTML est d
 ## 3. Estimation d'une fréquence de maintenance.
 Fichier : __2_Evolution_Temporelle_des_Clusters.ipynb__
 
-- On va étudier le drift de nos données sur la base du _dataset_ fourni en étudiant l'évolution de l'ARI (_Adjusted Rand Index_) d'une clusterisation initiale avec le temps.
-- On va calculer l'evolution de l'ARI de nos modeles pour estimer une frequence ad hoc de maintenance
+- On va étudier le drift de nos données sur la base du _dataset_ fourni 
+- On va calculer l'evolution de l'ARI ((_Adjusted Rand Index_) de nos modèles pour estimer une fréquence ad hoc de maintenance
